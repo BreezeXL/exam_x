@@ -1,0 +1,13 @@
+[
+  {
+    "model": "juheapp.user",
+    "pk": 1,
+    "fields": {
+      "openid": "oO9a-4pPyqekANXjNpNI5zVGeiHw",
+      "nickname": "nicheng",
+      "focus_cities": "[]",
+      "focus_constellations": "[]",
+      "focus_stocks": "[]"
+    }
+  }
+]

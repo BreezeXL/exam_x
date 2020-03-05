@@ -1,0 +1,7 @@
+<!--pages/jokes/jokes.wxml-->
+<text>你要的joke来了\n</text>
+<view wx:for="{{content}}">
+<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;{{item.content}}<view><br/></view></text>
+</view>
+
+<!-- <text decode="{{true}}" space="{{true}}">5555&nbsp;&nbsp;&nbsp;&nbsp;11111</text> -->

@@ -1,0 +1,4 @@
+<!--pages/zfb/zfb.wxml-->
+<text>pages/zfb/zfb.wxml</text>
+<text>这是支付宝界面</text>
+<button bindtap='onNavigatorTap'>跳转界面</button>

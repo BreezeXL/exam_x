@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文件</title>
+</head>
+<body>
+
+<form action="/api/v1.0/apps/image1/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="xx">
+    <button type="submit" >上传</button>
+</form>
+</body>
+</html>

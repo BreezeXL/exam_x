@@ -1,0 +1,2 @@
+APPID = 'wx33a9ab40a970bbe4'
+SECTER_KEY = 'e7f9b7a74cfe6a824b5230dd6db45513'

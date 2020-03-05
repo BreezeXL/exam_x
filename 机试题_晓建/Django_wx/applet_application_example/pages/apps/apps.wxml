@@ -1,0 +1,19 @@
+<!--pages/apps/apps.wxml-->
+<text>九宫格显示应用</text>
+<text>导入weui, 1导入样式库,2 import 3 cv大法</text>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">Grid</view>
+        <view class="page__desc">九宫格</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="pages/wx/wx" class="weui-grid" hover-class="weui-grid_active" open-type="redirect" data-index="{{index}}" bindtap='onNavigatorTap'>
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.app.name}}</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>
